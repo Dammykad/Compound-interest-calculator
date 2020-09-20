@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+<script src="compound_interest.js"></script>
+<link rel="stylesheet" href="compound_interest.css">
+<title>Compound Interest calculator</title>
+
+<body></body>
+<h1 class="head-h13">Compound Interest calculator</h1>
+<div class="row container inputs">
+    <div class="col-md-3">
+        <span>Principal:
+            <input id="Principal" type="number" class="form-control form-control-sm size-pl " placeholder="The Original Amount" required>
+        </span>
+    </div>
+    <div class="col-md-3 ">
+        <span>Rate:
+            <input id="Rate" type="number" class="form-control form-control-sm size-pl" placeholder="The Interest Rate" required>
+        </span>
+    </div>
+    <div class="col-md-3 ">
+        <span>Compoundment:
+            <input id="monthlyRate" type="number" class="form-control form-control-sm size-pl" placeholder="Monthly Compoundment" required>
+        </span>
+    </div>
+    <div class="col-md-3 ">
+        <span>Time:
+            <input id="Time" type="number" class="form-control form-control-sm size-pl" placeholder="The Number Of Years" required>
+        </span>
+    </div>
+</div>
+<div class="row container">
+    <div class="col-md-3">
+        <p></p>
+    </div>
+    <div class="col-md-3">
+        <p></p>
+    </div>
+</div>
+<div class="row container">
+    <div class="col-md-4">
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <button class="btn btn-primary btn-block" onclick="calculateCompoundInterest()">Calculate</button>
+    </div>
+    <div class="col-md-3">
+        <p></p>
+    </div>
+</div>
+<div class="row container">
+    <div class="col-md-4">
+        <p></p>
+    </div>
+    <div class="col-md-6 alert alert-success">
+        <p class="">
+            <span id="result"></span>
+        </p>
+    </div>
+    <div class="col-md-3">
+        <p></p>
+    </div>
+</div>
+
+<script src="compound_interest.js"></script>
